@@ -33,11 +33,19 @@ h1 {
 	font-weight: normal;
 	display: inline-block;
 	float: right;
+
 }
 
 .browse a {
 	
 	color: #eb8d2f;
+}
+
+.button {
+	border: 1px solid;
+	padding: 10px;
+	border-radius: 5px;
+	font-size: 20px;
 }
 
 #photo {
@@ -50,13 +58,6 @@ h1 {
 
 }
 
-h2, .browse {
-	border: 1px solid;
-	padding: 10px;
-	border-radius: 5px;
-	font-size: 20px;
-
-}
 
 h3 {
 	font-family: 'Nanum Pen Script', cursive;
@@ -65,6 +66,6 @@ h3 {
 }
 
 .bun {
-	height: 100px;
-	width: 150px;
+	height: 200px;
+	width: 500px;
 }
