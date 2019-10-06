@@ -1,11 +1,12 @@
 main {
 	display: grid;
-	grid: repeat(2, 200px) / repeat(3, 150px);
-	grid-gap: 20px;
+	grid-template-rows: auto auto;
+	grid-template-columns: auto auto auto;
+	grid-row-gap: 50px;
+	grid-column-gap: 20px;
 	justify-content: center;
 	grid-auto-flow: row;
 	align-content: center;
-	grid-auto-rows: 500px;
 }
 
 
@@ -24,15 +25,10 @@ h1 {
 
 .menu {
 	text-align: center;
-	padding-right: 10px;
-	margin-right: 100px;
-	margin-top: 50px;
 	color: #eb8d2f;
-	padding-left: 20px;
 	font-family: 'Avenir', sans-serif;
 	font-weight: normal;
 	display: inline-block;
-	float: right;
 
 }
 
@@ -46,16 +42,7 @@ h1 {
 	padding: 10px;
 	border-radius: 5px;
 	font-size: 20px;
-}
-
-#photo {
-	border: white;
-	border-width: 0px;
-	width: 50%;
-	height: 50%;
-	margin-left: 20px;
-	object-fit: contain
-
+	color: #eb8d2f;
 }
 
 
@@ -68,4 +55,35 @@ h3 {
 .bun {
 	height: 200px;
 	width: 500px;
+}
+
+.left {
+	float: left;
+	width: 50%;
+}
+
+.page: after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.homebun {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	margin-top: 5%;
+}
+
+.center {
+	margin: auto;
+}
+
+.parent {
+	text-align: center;
+}
+
+#link {
+	color: #eb8d2f;
 }
