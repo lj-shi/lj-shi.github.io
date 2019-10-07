@@ -1,5 +1,4 @@
 main {
-	display: grid;
 	grid-template-rows: auto auto;
 	grid-template-columns: auto auto auto;
 	grid-row-gap: 50px;
@@ -22,6 +21,13 @@ h1 {
 	color: white;
 	margin-bottom: 20px;
 }
+
+a {
+	text-decoration-line: none;
+	color: inherit;
+}
+
+/* Home Page */
 
 .menu {
 	text-align: center;
@@ -86,4 +92,152 @@ h3 {
 
 #link {
 	color: #eb8d2f;
+}
+
+
+/* Product Browse Page */
+.row {
+	display: flex;
+	padding: 0 4px;
+	width: 100%;
+	text-align: center;
+}
+
+.col {
+  flex: 33.3%;
+  padding: 0 4px;
+}
+
+.col img {
+  margin-top: 8px;
+  vertical-align: middle;
+
+}
+
+.option {
+	object-fit: cover;
+}
+
+.flavor {
+	font-family: 'Avenir';
+	font-size: 22px;
+	font-weight: lighter;
+}
+
+/* Product Detail Page */
+
+.imglst {
+	text-align: center;
+	float: left;
+	width: 15%;
+}
+
+.detail: after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.middle {
+	text-align: center;
+	margin: auto;
+	width: 35%;
+	float: left;
+	overflow: hidden;
+}
+
+.right {
+	text-align: center;
+	width: 50%;
+	float: left;
+	margin-left: -10px;
+}
+
+.middle img {
+	height: 500px;
+	margin: -5px 10px -5px -30px;
+}
+
+.middle h3 {
+	margin: 0px;
+	margin-bottom: 20px;
+	text-align: center;
+	padding: 0px;
+}
+
+.amount {
+	display: inline-block;
+	font-family: Avenir;
+	font-size: 20px;
+	text-align: center;
+	border: 1px solid;
+	border-radius: 5px;
+	font-size: 20px;
+	color: #eb8d2f;
+	margin-top: -20px;
+	padding: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.glaze {
+	display: inline-block;
+	font-family: Avenir;
+	font-size: 20px;
+	text-align: center;
+	border: 1px solid;
+	border-radius: 5px;
+	font-size: 20px;
+	color: #eb8d2f;
+	margin-top: -20px;
+	margin-bottom: 50px;
+	padding: 20px;
+	margin-right: 20px;
+	margin-left: 20px;
+	float: left;
+	width: 50%;
+}
+
+.amount h4, .glaze h4 {
+	color: black;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin: 0px;
+}
+
+.option_row {
+	display: flex;
+}
+
+h5 {
+	font-family: Avenir;
+	font-size: 24px;
+	font-weight: lighter;
+	text-align: left;
+	padding-left: 50px;
+}
+
+.total h2 {
+	font-family: 'Nanum Pen Script', cursive;
+	font-size: 50px;
+	font-weight: lighter;
+	text-align: center;
+	margin: 0px;
+}
+
+.cart {
+	font-family: Avenir;
+	font-size: 25px;
+	font-weight: lighter;
+	text-align: center;
+	background-color: #eb8d2f;
+	color: white;
+	margin-left: 90px;
+	margin-right: 90px;
+	border-radius: 5px;
+
+}
+
+.cart h2 {
+	padding: 10px;
 }
