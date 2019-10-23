@@ -1,0 +1,9 @@
+Prototypes
+
+Low-Fidelity Prototype:
+
+I implemented a simple shopping cart page with visible information on each item in the cart into my low-fi prototype. The total is listed on the right side of the screen, with the product image and other information on the left side. The most important information on this page is the total amount to be paid, which is displayed at the bottom. An icon button indicating the next step of shipping information is in the bottom right corner of the screen, so that the user knows to click on it when they are  done reviewing items in their cart.
+
+High-Fidelity Prototype:
+
+The high-fi prototype implements the features of the low-fi prototype while adding details to maintain a consistent color, font, and aesthetic as the rest of the website. The subtotal and estimated shipping information are provided at the bottom of the page, with a final expected total listed in larger text at the bottom. Instead of "Next" as I had in my low-fi sketch, I changed the text of the button to "Continue to shipping" to provide more information to the user as to what will occur in the next step.
