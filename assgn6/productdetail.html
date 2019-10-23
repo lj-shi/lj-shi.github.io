@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html>
-	<!-- styles -->
-	<link rel="stylesheet" type="text/css" href="styles.css">
-	<link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
-	
 	<head>
+		<!-- styles -->
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<!-- fonts -->
+		<link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+		<!-- javascript -->
+		<script type="text/javascript" src="productdetail.js"></script>
 		<title>Bun Bun Bakery</title>
 	</head>
 
@@ -22,19 +24,19 @@
 				<img src="assets/blackberry.png" alt="Bun Bun Cinnamon Rolls">
 			</div>
 			<div class="right">
+				<h5>How many? ($2 per bun)</h5>
 				<div class="count">
-					<h5>How many?</h5>
 					<div class="amount">
-						<h4>1</h4>
+						<h4 onclick="selectAmount(this)">1</h4>
 					</div>
 					<div class="amount">
-						<h4>2</h4>
+						<h4 onclick="selectAmount(this)">2</h4>
 					</div>
 					<div class="amount">
-						<h4>3</h4>
+						<h4 onclick="selectAmount(this)">4</h4>
 					</div>
 					<div class="amount">
-						<h4>4</h4>
+						<h4 onclick="selectAmount(this)">6</h4>
 					</div>
 				</div>	
 				
@@ -42,24 +44,27 @@
 					<h5>Any glaze?</h5>
 					<div class="option_row">
 						<div class="glaze">
-							<h4>NONE</h4>
+							<h4 onclick="selectGlaze(this)">NONE</h4>
 						</div>
 						<div class="glaze">
-							<h4>SUGAR-MILK</h4>
+							<h4 onclick="selectGlaze(this)">SUGAR-MILK</h4>
 						</div>
 					</div>
 					<div class="option_row">
 						<div class="glaze">
-							<h4>VANILLA-MILK</h4>
+							<h4 onclick="selectGlaze(this)">VANILLA-MILK</h4>
 						</div>
 						<div class="glaze">
-							<h4>DOUBLE-CHOCOLATE</h4>
+							<h4 onclick="selectGlaze(this)">DOUBLE-CHOCOLATE</h4>
 						</div>
 					</div>
 				</div>
 
 				<div class="total">
-					<h2>Total: $4.00</h2>
+					<h2> Total: $<script type="text/javascript">
+						document.write(total)
+						</script>
+					</h2>
 				</div>
 
 				<div class="cart">
