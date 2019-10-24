@@ -43,7 +43,6 @@ function selectGlaze(item) {
 function updateTotal(item) {
 	var total = 2 * item;
 	return total;
-
 }
 
 
