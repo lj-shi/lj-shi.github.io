@@ -27,16 +27,16 @@
 				<h5>How many? ($2 per bun)</h5>
 				<div class="count">
 					<div class="amount">
-						<h4 onclick="selectAmount(this)">1</h4>
+						<h4 onclick="selectAmount(this)" id="1" >1</h4>
 					</div>
 					<div class="amount">
-						<h4 onclick="selectAmount(this)">2</h4>
+						<h4 onclick="selectAmount(this)" id="2">2</h4>
 					</div>
 					<div class="amount">
-						<h4 onclick="selectAmount(this)">4</h4>
+						<h4 onclick="selectAmount(this)" id="4">4</h4>
 					</div>
 					<div class="amount">
-						<h4 onclick="selectAmount(this)">6</h4>
+						<h4 onclick="selectAmount(this)" id="6">6</h4>
 					</div>
 				</div>	
 				
@@ -62,7 +62,7 @@
 
 				<div class="total">
 					<h2> Total: $<script type="text/javascript">
-						document.write(total)
+						document.write(total);
 						</script>
 					</h2>
 				</div>
