@@ -243,6 +243,7 @@ h5 {
 	padding-bottom: 3px;
 }
 
+/* shopping cart link */
 #toCart {
 	font-family: Avenir;
 	font-size: 20px;
@@ -254,3 +255,71 @@ h5 {
 	text-decoration: underline;
 	margin-top: -10px;
 }
+
+/*shopping cart page */
+
+.linebreak {
+	border-color: #eb8d2f;
+	border-width: 1px;
+	margin-left: 45px;
+	margin-right: 45px;
+	margin-top: -20px;
+
+}
+
+.leftimg {
+	float: left;
+	width: 45%
+
+}
+
+#cartimg {
+	object-fit: cover;
+	height: 230px;
+	width: 150px;
+	margin-left: 60px;
+	margin-top: 50px;
+}
+
+.cartflavor {
+	font-family: 'Avenir';
+	font-size: 22px;
+	font-weight: lighter;
+}
+
+#info {
+	margin-top: 70px;
+}
+
+#finalAmt {
+	font-size: 36px;
+	text-align: center;
+	margin-top: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
