@@ -292,14 +292,19 @@ h5 {
 }
 
 #finalAmt {
-	font-size: 36px;
+	font-size: 28px;
 	text-align: center;
 	margin-top: 150px;
 }
 
+#bottomline {
+	margin-top: 350px;
+}
 
-
-
+.subtotal {
+	margin-left: 200px;
+	font-size: 30px;
+}
 
 
 

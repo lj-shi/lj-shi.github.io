@@ -3,6 +3,8 @@
 	<!-- styles -->
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link href="https://fonts.googleapis.com/css?family=Nanum+Pen+Script&display=swap" rel="stylesheet">
+	<!-- javascript -->
+	<script type="text/javascript" src="productdetail.js"></script>
 	
 	<head>
 		<title>Bun Bun Bakery</title>
@@ -33,9 +35,14 @@
 		</div>
 
 		<div class="totals">
-			<hr class="linebreak">
-			<h2 class="cartflavor">
+			<hr class="linebreak" id="bottomline">
+			<h2 class="cartflavor subtotal">
 				Subtotal
+			</h2>
+			<h2 class="cartflavor">
+				<script>
+					document.write(total);
+				</script>
 			</h2>
 		</div>
 

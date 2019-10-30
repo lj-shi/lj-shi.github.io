@@ -5,7 +5,6 @@ var glazeSelected = false;
 function selectAmount(item) {
 
 	if (amtSelected === false) {
-		console.log('checked');
 		item.parentNode.style.backgroundColor = "#eb8d2f";
 		item.style.color = "white";
 		amtSelected = true; //can't click on another item if one is already selectred
@@ -16,14 +15,18 @@ function selectAmount(item) {
 		item.parentNode.style.backgroundColor = "white";
 		item.style.color = "black";
 		amtSelected = false;
-		console.log('UNCHECKED');
 		var amount = 0;
 	}
 
 	var total = updateTotal(amount);
-	console.log(total);
-	return total;
+	console.log("hello" + JSON.parse(localStorage.getItem("total")));
+	displayAmount();
 
+}
+
+function displayAmount() {
+	var plswork = getTotal();
+	document.getElementById("totalamt").textContent = "Total: $" + plswork;
 }
 
 function selectGlaze(item) {
@@ -42,7 +45,11 @@ function selectGlaze(item) {
 
 function updateTotal(item) {
 	var total = 2 * item;
+	localStorage.setItem("total", JSON.stringify(total));
 	return total;
 }
 
+function getTotal() {
+	return JSON.parse(localStorage.getItem("total"));
 
+}
