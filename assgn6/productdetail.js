@@ -27,6 +27,7 @@ function selectAmount(item) {
 function displayAmount() {
 	var plswork = getTotal();
 	document.getElementById("totalamt").textContent = "Total: $" + plswork;
+	
 }
 
 function selectGlaze(item) {
@@ -53,3 +54,23 @@ function getTotal() {
 	return JSON.parse(localStorage.getItem("total"));
 
 }
+
+function cartAmount() {
+	console.log("hello");
+	var cartamt = getTotal();
+	document.getElementById("finalAmt").textContent = "$" + cartamt + ".00";
+}
+
+window.onload = function() {
+	console.log("help me");
+	cartAmount();
+}
+
+function removeCart(int) {
+	console.log("before changing it to" + JSON.parse(localStorage.getItem("total")));
+	var total = 0;
+	localStorage.setItem("total", JSON.stringify(total));
+	console.log("i need major help" + JSON.parse(localStorage.getItem("total")));
+	displayAmount();
+}
+
