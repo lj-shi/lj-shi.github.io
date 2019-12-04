@@ -1,4 +1,22 @@
 
-h1 {
-	color: green;
+
+/*
+	font-family: 'Noto Sans TC', sans-serif; HEADINGS
+	font-family: 'Montserrat', sans-serif; SUBTITLE
+	font-family: 'Lato', sans-serif; TEXT
+*/
+
+header {
+	text-align: center;
+	color: black;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 70px;
+	margin-bottom: 70px;
+	margin-top: 30px;
+}
+
+.page {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 38px;
 }
