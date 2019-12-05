@@ -15,8 +15,38 @@ header {
 	margin-top: 30px;
 }
 
+.name {
+	text-align: center;
+	color: #969696;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 30px;
+	margin-top: 15px;
+	font-weight: lighter;
+}
+
 .page {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 38px;
+}
+
+.homeicon {
+	object-position: center;
+	object-fit: cover;
+	text-align: center;
+}
+
+.col-md-4 {
+	text-align: center;
+
+}
+
+.row {
+	position: relative;
+
+}
+
+.books h2, .quotes h2, .portfolio h2 {
+	position: absolute;
+	bottom: 50;
 }
