@@ -1,5 +1,4 @@
 
-
 /*
 	font-family: 'Noto Sans TC', sans-serif; HEADINGS
 	font-family: 'Montserrat', sans-serif; SUBTITLE
@@ -28,13 +27,13 @@ header {
 	text-align: center;
 	font-family: 'Montserrat', sans-serif;
 	font-size: 38px;
+	color: black;
 }
 
 .homeicon {
 	object-position: center;
 	object-fit: cover;
 	text-align: center;
-	margin-left: 100px;
 }
 
 .col-md-4 {
@@ -57,9 +56,18 @@ header {
 	margin-top: 50px; 
 }
 
+a {
+	text-decoration-line: none;
+	color: inherit;
+}
 
-
-
+.footer h3 {
+	text-align: center;
+	font-family: 'Montserrat', sans-serif;
+	color: #4A90E2;
+	margin-top: 200px;
+	font-size: 24px;
+}
 
 
 
