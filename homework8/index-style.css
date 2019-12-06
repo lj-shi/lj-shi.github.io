@@ -38,15 +38,33 @@ header {
 
 .col-md-4 {
 	text-align: center;
-
+	display: grid;
 }
 
-.row {
-	position: relative;
+.row1, .col1 {
+	grid-column: 1;
+	grid-row: 2;
+}
 
+.books, .quotes, .portfolio {
+	position: relative;
 }
 
 .books h2, .quotes h2, .portfolio h2 {
 	position: absolute;
-	bottom: 50;
+	top: 170px;
+	left: 125px;
+	bottom: 0;
 }
+
+.title_text {
+	margin-top: 50px; 
+}
+
+
+
+
+
+
+
+
