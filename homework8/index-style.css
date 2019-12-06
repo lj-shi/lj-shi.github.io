@@ -18,7 +18,7 @@ header {
 .name {
 	text-align: center;
 	color: #969696;
-	font-family: 'Noto Sans TC', sans-serif;
+	font-family: 'Montserrat', sans-serif;
 	font-size: 30px;
 	margin-top: 15px;
 	font-weight: lighter;
@@ -34,16 +34,12 @@ header {
 	object-position: center;
 	object-fit: cover;
 	text-align: center;
+	margin-left: 100px;
 }
 
 .col-md-4 {
 	text-align: center;
 	display: grid;
-}
-
-.row1, .col1 {
-	grid-column: 1;
-	grid-row: 2;
 }
 
 .books, .quotes, .portfolio {
