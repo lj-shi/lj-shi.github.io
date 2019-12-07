@@ -3,12 +3,76 @@
 	<!-- fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:300|Noto+Sans+TC:400,500&display=swap" rel="stylesheet">
 
+	<!-- styles -->
+	<link rel="stylesheet" type="text/css" href="books-style.css">
+
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
 <head>
 	<title>
 		Books | My Bookshelf
 	</title>
 </head>
 <body>
+	<div class="sidebar">
+		<a href="./index.html" id="link"><h4>Bookshelf</h4></a>
+		<h1>Favorite titles from over the years</h1>
+	</div>
 
+	<div class="container booksrow">
+		<div class="row">
+			<div class="col-md-4 books gatsby">
+				<img src="assets/great-gatsby.jpg" class="cover">
+				<h2>The Great Gatsby</h2>
+				<h3><content>by </content> F. Scott Fitzgerald</h3>
+			</div>
+
+			<div class="col-md-4 books eden">
+				<img src="assets/east-of-eden.jpg" class="cover">
+				<h2>East of Eden</h2>
+				<h3><content>by </content> John Steinbeck</h3>
+			</div>
+
+			<div class="col-md-4 books uncommon">
+				<img src="assets/uncommon-type.png" class="cover">
+				<h2>Uncommon Type</h2>
+				<h3><content>by </content> Tom Hanks</h3>
+			</div>
+
+			<div class="col-md-4 books atonement">
+				<img src="assets/atonement.png" height="500px" width="auto" class="cover">
+				<h2>Atonement</h2>
+				<h3><content>by </content> Ian McEwan</h3>
+			</div>
+
+			<div class="col-md-4 books horses">
+				<img src="assets/horses.png" height="500px" width="auto" class="cover">
+				<h2>All the Pretty Horses</h2>
+				<h3><content>by </content> Cormac McCarthy</h3>
+			</div>
+
+			<div class="col-md-4 books pride">
+				<img src="assets/pride.png" height="500px" width="auto" class="cover">
+				<h2>Pride and Prejudice</h2>
+				<h3><content>by </content> Jane Austen</h3>
+			</div>
+
+			<div class="col-md-4 books kafka">
+				<img src="assets/kafka.jpg" height="500px" width="auto" class="cover">
+				<h2>Kafka on the Shore</h2>
+				<h3><content>by </content> Haruki Murakami</h3>
+			</div>
+
+			<div class="col-md-4 books secret">
+				<img src="assets/secret.png" height="500px" width="auto" class="cover">
+				<h2>The Secret in Their Eyes</h2>
+				<h3><content>by </content> Eduardo Sacheri</h3>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
