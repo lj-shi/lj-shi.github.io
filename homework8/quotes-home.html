@@ -1,5 +1,23 @@
 <!DOCTYPE html>
 <html>
+	<!-- styles -->
+	<link rel="stylesheet" type="text/css" href="quotes-style.css">
+	
+	<!--javascript -->
+	<script type="text/javascript" src="quotes-js.js"></script>
+
+	<!-- font -->
+	<link href="https://fonts.googleapis.com/css?family=Lato|Montserrat:300|Noto+Sans+TC:400,500&display=swap" rel="stylesheet">
+	
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+	<!-- animations -->
+	<link rel="stylesheet" type="text/css" href="csshake.css">
+	
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 <head>
 	<title>
@@ -7,7 +25,64 @@
 	</title>
 </head>
 <body>
-	<h1>hello</h1>
+	<div class="header">
+		<a href="./index.html" id="link"><h4 class="return">Bookshelf</h4></a>
+	</div>
+	<div class="container quote">
+		<div class="row">
+			<div class="col-md-3 col-lg-3 blank"></div>
+
+			<div class="col-md-3 col-lg-3 block two">
+				<p class="text" onmouseover="expandQuote(this)" onmouseout="hideQuote2(this)">
+					...and our love is that rusted bottle ...pointing north,
+					the direction which we turn, conjuring up our silver knives
+					and spoons and erasing messages in the sand, where you wrote
+					“freezing in the arctic of our dreams,” and I said
+					“yes” delaying the cold medium for a time
+					while you continued to “cultivate our possessions”
+					as the moon probably “continued” to cradle.
+				</p>
+				<h3 class="source">
+					Jim Carroll
+				</h3>
+			</div>
+
+			<div class="col-md-3 col-lg-3 blank"></div>
+
+			<div class="col-md-3 block four">
+				<p class="text" onmouseover="expandQuote(this)" onmouseout="hideQuote4(this)">
+					We resembled each other like two drops of water, but we had different reflections. He was probably a first version of myself, but conceived too much in the absolute.
+				</p>
+				<h3 class="source">
+					Salvador Dali
+				</h3>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-3 col-lg-3 block one">
+				<p class="text" onmouseover="expandQuote(this)" onmouseout="hideQuote1(this)">
+					So you must not be frightened if a sadness rises up before you larger than any you have ever seen; if a restiveness, like light and cloudshadows, passes over your hands and over all you do. You must think that something is happening with you, that life has not forgotten you, that it holds you in its hand; it will not let you fall.
+				</p>
+				<h3 class="source">
+					Rainer Maria Rilke
+				</h3>
+			</div>
+
+			<div class="col-md-3 col-lg-3 blank"></div>
+
+			<div class="col-md-3 col-lg-3 block three">
+				<p class="text" onmouseover="expandQuote(this)" onmouseout="hideQuote3(this)">
+					One cannot approximate truth, add nor take away, for there is no one on earth like the true shepherd and there is nothing in heaven like the suffering of real life.
+				</p>
+				<h3 class="source">
+					Patti Smith
+				</h3>
+			</div>
+
+			<div class="col-md-3 col-lg-3 blank"></div>
+		</div>
+	</div>
 
 </body>
 </html>

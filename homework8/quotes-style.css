@@ -1,0 +1,81 @@
+
+/*
+	font-family: 'Noto Sans TC', sans-serif; HEADINGS
+	font-family: 'Montserrat', sans-serif; SUBTITLE
+	font-family: 'Lato', sans-serif; TEXT
+*/
+
+.header {
+	margin-top: 25px;
+}
+
+.block {
+	height: 400px;
+	width: 400px;
+}
+
+.blank {
+	color: white;
+	height: 400px;
+	width: auto;
+}
+
+.text {
+	font-family: 'Lato', sans-serif;
+	font-size: 18px;
+	margin-top: 10px;
+}
+
+.one {
+	background-color: #CEE1F7;
+}
+
+.one p {
+	color: #CEE1F7;
+}
+
+.two {
+	background-color: #ACCCF2;
+}
+
+.two p {
+	color: #ACCCF2;
+}
+
+.three {
+	background-color: #83A9DB;
+}
+
+.three p {
+	color: #83A9DB;
+}
+
+.four {
+	background-color: #4A90E2;
+}
+
+.four p {
+	color: #4A90E2;
+}
+
+.source {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 28px;
+	position: absolute;
+	bottom: 0;
+	padding-bottom: 15px;
+	font-weight: bolder;
+}
+
+.return {
+	text-align: left;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-size: 30px;
+	color: #2d2c2c;
+	margin-left: 50px;
+	font-weight: lighter;
+}
+
+
+
+
